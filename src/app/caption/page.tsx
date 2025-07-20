@@ -83,7 +83,7 @@ export default function CaptionGeneratorPage() {
     formData.append("language", assistantLang);
 
     try {
-      const response = await fetch("http://localhost:8000/generate-caption", {
+      const response = await fetch("https://fast-api-render-qkmb.onrender.com/generate-caption", {
         method: "POST",
         body: formData,
       });

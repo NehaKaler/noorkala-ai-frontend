@@ -75,7 +75,7 @@ export default function GeneratePage() {
     formData.append("gender", gender);
 
     try {
-      const response = await fetch("http://localhost:8000/generate-image", {
+      const response = await fetch("https://fast-api-render-qkmb.onrender.com/generate-image", {
         method: "POST",
         body: formData,
       });
@@ -120,7 +120,7 @@ export default function GeneratePage() {
 
     try {
       const response = await fetch(
-        "http://localhost:8000/regenerate-with-feedback",
+        "https://fast-api-render-qkmb.onrender.com/regenerate-with-feedback",
         {
           method: "POST",
           body: formData,
@@ -396,7 +396,7 @@ export default function GeneratePage() {
                 
                 <div className="relative group">
                   <img
-                    src={"http://localhost:8000/get-enhanced-image/" + generatedImage}
+                    src={"https://fast-api-render-qkmb.onrender.com/get-enhanced-image/" + generatedImage}
                     alt="AI Generated Product"
                     className="w-full h-96 object-contain rounded-2xl shadow-2xl"
                   />
@@ -406,7 +406,7 @@ export default function GeneratePage() {
                   {/* Download Button */}
                   <div className="absolute bottom-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <a
-                      href={"http://localhost:8000/get-enhanced-image/" + generatedImage}
+                      href={"https://fast-api-render-qkmb.onrender.com/get-enhanced-image/" + generatedImage}
                       download={generatedImage} // will download with the original file name
                       className="bg-white/20 backdrop-blur-lg p-2 rounded-full hover:bg-white/30 transition-colors"
                     >
