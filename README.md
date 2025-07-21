@@ -1,5 +1,3 @@
-
-📄 README.md
 # 🌸 NoorKala AI — Cultural Commerce Assistant
 
 NoorKala AI is an AI-powered cultural commerce platform that enhances product images and generates contextual captions based on region, style, gender, occasion, and theme. It’s designed to help small businesses and local artisans showcase their products beautifully online using modern AI tools.
