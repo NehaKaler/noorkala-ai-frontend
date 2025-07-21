@@ -90,17 +90,23 @@ npm run dev
 
 <!-- Frontend runs at: http://localhost:3000 -->
 
- ## ✨ Features
-Upload a product image
+ ## ✨ ✨ Features
+✅ Upload a product image
 
-Choose theme, region, occasion, gender, and style
+✅ Select theme, region, occasion, gender, and style
 
-AI-enhanced product image via Replicate API
+✅ AI-enhanced image via Replicate API
 
-AI-generated contextual caption via Gemini Pro
+✅ Contextual caption via Gemini Pro API
+
+✅ Product Insight Generator via Gemini Flash API
+
+If the user provides: Product Name, Category, Price, and Units Sold, NoorKala AI analyzes sales performance and provides insightful business tips.
+
+✅ Business tutorial videos for small sellers (multilingual)
 
  ## 🧪 Example Workflow
-Upload a photo of a product (e.g., kurta).
+Upload a photo (e.g., kurta)
 
 Select:
 
@@ -112,9 +118,29 @@ Style: Ethnic
 
 Gender: Female
 
-NoorKala AI enhances the image and generates a caption:
+🔹 Output Image: Enhanced for e-commerce use
+🔹 Output Caption:
 
-“Gracefully embroidered Rajasthani kurta perfect for festive weddings.”
+"Gracefully embroidered Rajasthani kurta perfect for festive weddings."
+
+ ## 📊 Product Insight Demo
+User inputs:
+
+Product Name:  Kurta
+
+Category: Fashion and Clothing
+
+Price: ₹1499
+
+Units Sold: 35
+
+🔎 Gemini Flash analyzes this and provides insights like:
+
+“Kurtas in this price range perform better with bundling offers. You can target festive campaigns in northern regions.”
+
+🎓 Business Tutorial Feature
+NoorKala AI includes short video tutorials to guide sellers on growing their business online.
+These tutorials are concise and tailored for beginners in regional languages.
 
  ## 🛠️ Troubleshooting
 If backend fails to start, ensure .env and REPLICATE_API_TOKEN are correct.
